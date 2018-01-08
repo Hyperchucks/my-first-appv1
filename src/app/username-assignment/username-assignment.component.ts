@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsernameAssignmentComponent implements OnInit {
     userName = '';
-    blankUserName = false;
-    userNameStatus = 'Please enter your username!';
+    // blankUserName = false;
+    // userNameStatus = 'Please enter your username!';
 
 
   constructor() {
@@ -18,13 +18,13 @@ export class UsernameAssignmentComponent implements OnInit {
   ngOnInit() {
   }
 
-  updateUserName() {
-    this.userNameStatus = 'You have enter this username : ' + this.userName;
-    this.userName = "";
-  }
+  // updateUserName() {
+  //   this.userNameStatus = 'You have enter this username : ' + this.userName;
+  //   this.userName = "";
+  // }
 
-  getUserName(event: any) {
-    this.userName = (<HTMLInputElement>event.target).value;
+  // getUserName(event: any) {
+  //   this.userName = (<HTMLInputElement>event.target).value;
     
   }
 
