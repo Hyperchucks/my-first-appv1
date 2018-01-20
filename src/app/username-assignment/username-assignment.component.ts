@@ -25,7 +25,6 @@ export class UsernameAssignmentComponent implements OnInit {
 
   // getUserName(event: any) {
   //   this.userName = (<HTMLInputElement>event.target).value;
-    
   }
 
-}
+
