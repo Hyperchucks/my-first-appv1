@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { UsernameAssignmentComponent } from './username-assignment/username-assignment.component';
+import { FormsOfDatabindingComponent } from './forms-of-databinding/forms-of-databinding.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { UsernameAssignmentComponent } from './username-assignment/username-assi
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    UsernameAssignmentComponent
+    UsernameAssignmentComponent,
+    FormsOfDatabindingComponent
     
   ],
   imports: [
